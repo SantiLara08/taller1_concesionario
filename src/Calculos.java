@@ -1,4 +1,3 @@
-```java
 public class Calculos {
 
     private Calculos() {
@@ -8,4 +7,3 @@ public class Calculos {
         return monto - (monto * porcentaje);
     }
 }
-```
