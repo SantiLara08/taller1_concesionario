@@ -1,8 +1,8 @@
 public abstract class Vehiculo implements Verificable {
 
     protected final String placa;
-    protected String marca;
-    protected String modelo;
+    protected final String marca;
+    protected final String modelo;
     protected double tarifaDia;
     protected Estado estadoVehiculo;
 
