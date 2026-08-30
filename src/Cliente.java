@@ -27,7 +27,7 @@ public class Cliente implements Verificable{
     }
 
     public boolean esFrecuente(){
-        int numero = 5; //Cantidad de alquileres para que se considere frecuente
+        int numero = 2; //Cantidad de alquileres para que se considere frecuente
         return numero_alquileres>=numero;
     }
 

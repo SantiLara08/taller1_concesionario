@@ -2,8 +2,7 @@ public class Moto extends Vehiculo {
 
     private double cilindraje;
 
-    public Moto(String placa, String marca, String modelo, double tarifaDia,
-                double cilindraje) {
+    public Moto(String placa, String marca, String modelo, double tarifaDia, double cilindraje) {
         super(placa, marca, modelo, tarifaDia);
         this.cilindraje = cilindraje;
     }

@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Licencia {
+public final class Licencia {
 
     private final String numero;
     private final String fechaVencimiento;

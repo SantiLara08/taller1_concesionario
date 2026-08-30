@@ -31,6 +31,10 @@ public class Alquiler {
         }
     }
 
+    public double getMontoDanos(){
+        return montoDanos;
+    }
+
     public static int getTotal_alquileres(){
         return total_alquileres;
     }
