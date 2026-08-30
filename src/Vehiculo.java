@@ -3,8 +3,8 @@ public abstract class Vehiculo implements Verificable {
     protected final String placa;
     protected String marca;
     protected String modelo;
-    private double tarifaDia;
-    private Estado estadoVehiculo;
+    protected double tarifaDia;
+    protected Estado estadoVehiculo;
 
     public Vehiculo(String placa, String marca, String modelo, double tarifaDia) {
         this.placa = placa;
