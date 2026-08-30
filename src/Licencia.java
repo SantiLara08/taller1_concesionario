@@ -1,4 +1,3 @@
-```java
 import java.time.LocalDate;
 
 public class Licencia {
@@ -24,4 +23,3 @@ public class Licencia {
         return !fecha.isBefore(LocalDate.now());
     }
 }
-```
